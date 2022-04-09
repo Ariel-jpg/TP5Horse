@@ -1,0 +1,13 @@
+- Caballo:
+    - void Desplazarse (númeroMovimiento)
+    - (movimientosRealizados) obtenerMovimientoRealizados()
+    - (boolean) comprobarPosiciónPrevia(númeroMovimiento);
+    - (posiciónActual) obtenerPosiciónActual()
+- Tablero:
+    - (boolean) MovimientoVálido( movimiento ) → agarra posActualCaballo, le suma el número de movimiento y chequea que caiga en una casilla válida. Si sí entonces TRUE sino FALSE
+    - DesplazarCaballo (númeroMovimiento)
+
+- Menu.
+    - void desplazarCaballo() → Tablero.desplazarCaballo()
+    - Stack mostrarPilas() → Caballo.obtenerMovimientosRealizados();
+    - void Salir()
