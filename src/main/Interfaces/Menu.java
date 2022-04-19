@@ -1,3 +1,5 @@
+package Interfaces;
+
 import java.util.Stack;
 
 public interface Menu {

@@ -1,3 +1,5 @@
+package Interfaces;
+
 import java.util.Stack;
 import java.util.function.Function;
 
